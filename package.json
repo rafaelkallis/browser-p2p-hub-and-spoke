@@ -1,0 +1,26 @@
+{
+  "name": "hub-and-spoke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelkallis/react-hub-and-spoke.git"
+  },
+  "author": "",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/rafaelkallis/react-hub-and-spoke/issues"
+  },
+  "homepage": "https://github.com/rafaelkallis/react-hub-and-spoke#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "peer": "0.5.3",
+    "peerjs": "1.3.1",
+    "socket.io": "2.3.0"
+  }
+}
